@@ -11,7 +11,7 @@ Chaque action est associée à un son atypique.
 ](http://jmpelletier.com/freenect/)
 
 * Télécharger le dossier 
-[assets](https://dl.dropboxusercontent.com/u/15569938/git/bulles/assets.zip)
+[assets](https://www.dropbox.com/s/s7j9dag32ttexup/assets.zip?dl=0)
 
 * Brancher la kinect
 
