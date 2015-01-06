@@ -1,0 +1,24 @@
+{
+	"pattrstorage" : 	{
+		"name" : "bulles-conf",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"distanceMapRange" : [ 0.352, 0.916767 ],
+					"master" : [ 0.0 ],
+					"roll" : [ 0.0 ],
+					"textbutton[1]" : [ 0 ],
+					"tilt" : [ 25.0 ],
+					"zoneTresh" : [ 0.1 ],
+					"dac" : [ 1 ],
+					"qmetro_active" : [ 1 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
