@@ -10,8 +10,8 @@ Chaque action est associée à un son atypique.
 [http://jmpelletier.com/freenect/
 ](http://jmpelletier.com/freenect/)
 
-* Télécharger le dossier Assets:
-
+* Télécharger le dossier 
+[assets](https://dl.dropboxusercontent.com/u/15569938/git/bulles/assets.zip)
 
 * Brancher la kinect
 
