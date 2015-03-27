@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 572.0, 110.0, 752.0, 583.0 ],
+		"rect" : [ 572.0, 180.0, 752.0, 583.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,18 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-42",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 819.0, 510.0, 24.0, 24.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-64",
 					"maxclass" : "comment",
@@ -115,7 +127,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-34",
-					"linecount" : 3,
+					"linecount" : 4,
 					"maxclass" : "textedit",
 					"numinlets" : 1,
 					"numoutlets" : 4,
@@ -123,7 +135,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 687.833557, 484.888824, 100.0, 50.0 ],
 					"style" : "",
-					"text" : "/Users/gllm/Documents/_gllm/tp4/BULLES/assets/",
+					"text" : "/Users/gllm/Documents/Dropbox/Public/git/bulles/assets/",
 					"varname" : "assetsPath-text"
 				}
 
@@ -401,7 +413,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 964.25, 195.222229, 59.5, 22.0 ],
 					"restore" : 					{
-						"assetsPath-text" : [ "/Users/gllm/Documents/_gllm/tp4/BULLES/assets/" ],
+						"assetsPath-text" : [ "/Users/gllm/Documents/Dropbox/Public/git/bulles/assets/" ],
 						"dac" : [ 1 ],
 						"distanceMapRange" : [ 0.352, 0.916767 ],
 						"master" : [ 0.0 ],
@@ -413,7 +425,7 @@
 ,
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u993011987"
+					"varname" : "u005012725"
 				}
 
 			}
@@ -4665,7 +4677,7 @@
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 374.5, 471.777771, 136.0, 48.0 ],
-					"presentation_rect" : [ 0.0, 0.0, 50.0, 48.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 50.0, 34.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "master",
@@ -4769,9 +4781,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 374.5, 393.777771, 279.0, 22.0 ],
+					"patching_rect" : [ 374.5, 393.777771, 272.0, 22.0 ],
 					"style" : "",
-					"text" : "poly~ bulle 36 @args ctx-bulle 9 4 0.086 0.66 0.38",
+					"text" : "poly~ bulle 36 @args ctx-bulle 9 4 0.076 0.66 0.3",
 					"varname" : "poly~"
 				}
 
@@ -5131,6 +5143,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-34", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-42", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-41", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -5352,35 +5373,35 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "bulle.maxpat",
-				"bootpath" : "~/Documents/_gllm/tp4/BULLES/prog",
+				"bootpath" : "~/Documents/Dropbox/Public/git/bulles/bulles-prog/stable",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "place.maxpat",
-				"bootpath" : "~/Documents/_gllm/tp4/BULLES/prog",
+				"bootpath" : "~/Documents/Dropbox/Public/git/bulles/bulles-prog/stable",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "tof.jit.movementzones.maxpat",
-				"bootpath" : "~/Documents/_gllm/tp4/BULLES/prog",
+				"bootpath" : "~/Documents/Dropbox/Public/git/bulles/bulles-prog/stable",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "tof.jit.movementzones.voice.maxpat",
-				"bootpath" : "~/Documents/_gllm/tp4/BULLES/prog",
+				"bootpath" : "~/Documents/Dropbox/Public/git/bulles/bulles-prog/stable",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bulles-conf.json",
-				"bootpath" : "~/Documents/_gllm/tp4/BULLES/prog",
+				"bootpath" : "~/Documents/Dropbox/Public/git/bulles/bulles-prog/stable",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

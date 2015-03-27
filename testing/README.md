@@ -1,0 +1,54 @@
+# Description : 
+Bulles-testing est une installation interactive ludique.
+La projection propose de péter des bulles d'emballage qui renferme chacun un objet.
+Chaque action est associée à un son atypique.
+
+
+## ChangeLog
+
+v 0.3 : Clean up majeur des fichiers 
+
+v 0.2 : séparation du tracker et du moteur video
+Implantation d'un protocol d'after touch midi 
+
+v 0.1 : working prototype
+
+
+## Marche à suivre : 
+
+* Télécharger et installer jit.freenect de jmpelletier
+[http://jmpelletier.com/freenect/
+](http://jmpelletier.com/freenect/)
+
+* Télécharger le dossier 
+[assets](https://www.dropbox.com/s/s7j9dag32ttexup/assets.zip?dl=0)
+
+* Brancher la kinect
+
+* Partir le patch _bulle-master
+
+* Glisser-déposer le dossier assets sur la zone prévue à cet effet 
+
+* Sauvegarder la configuration (bouton Commit)
+
+* Ajuster le threshold, le tilt et la profondeur liés à la kinect
+
+* ¡Enjoy!
+
+
+
+## Crédits: 
+
+Programmation :
+Guillaume Arseneault (gllm)
+
+Code additionnel : 
+Thomas Frederick (tof)
+
+Images,  Vidéo et Son :
+Joanne Comte
+Charlène Gilbert
+Hasmig Makdesian
+
+
+
