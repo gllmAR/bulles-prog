@@ -3,7 +3,7 @@
 Créée en décembre 2014 
 par Charlène Gilbert, Johanne Comte, Hasmig Makdesian et Guillaume Arseneault
 
-<iframe src="https://player.vimeo.com/video/114881253?title=0&byline=0&portrait=0" width="100%" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+https://vimeo.com/114881253
 
 
 ### Description :
